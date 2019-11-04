@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Country name="Japan">
+   <Process name="Resident">
+     <!---if Password = InputText LoggedIn = true-->
+     <Condition name ="IfStatement1"
+                ReturnVariable="LoggedIn"
+                LeftVariable ="Password"
+                RightVariable ="InputText"
+                Operator ="Equals"
+                Types ="String">     
+     </Condition>      
+   </Process>  
+</Country>
